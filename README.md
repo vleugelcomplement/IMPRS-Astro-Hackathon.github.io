@@ -2,6 +2,7 @@
 
 Welcome to the IMPRS-Astro-Hackathon!
 
+<<<<<<< HEAD
 
 Haus der Astronomie, Heidelberg, 21.-25.05.2024
 

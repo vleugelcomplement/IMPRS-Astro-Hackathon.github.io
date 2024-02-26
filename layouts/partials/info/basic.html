@@ -1,0 +1,71 @@
+<section id="basic-info" class="container">
+  <div class="row">
+    <div class="col-sm-12">
+
+      <!-- Card -->
+      <div class="card card-free-bird mb-3">
+        <img class="card-img-top px-3 pt-4 pb-2" src="/images/front/header.jpg" alt="Header">
+
+        <div class="card-body text-center">
+          <h2 class="card-title text-uppercase event-primary-text">
+            <b>{{ i18n "basicinfo_claim" | markdownify }}</b>
+          </h2>
+          <h3 class="text-uppercase pb-5">
+            <b>
+              {{ $startDate := .Param "dateStart" | time }}
+              {{ $endDate := .Param "dateEnd" | time }}
+              {{ if eq $startDate.Month $endDate.Month }}
+                 {{ $startDate.Format "January 2" }}-{{ $endDate.Format "2" -}}
+              {{ else }}
+                {{ $startDate.Format "January 2" }}-{{ $endDate.Format "January 2" -}}
+              {{ end }},
+              {{ $startDate.Format "2006" }}
+            </b>
+          </h3>
+
+          <div class="row justify-content-md-center">
+            <div class="col-md-10 text-left">
+              <h4 class="text-uppercase"><b>{{ i18n "basicinfo_what_is_it_title" }}</b></h4>
+            </div>
+          </div>
+
+          <div class="row justify-content-md-center">
+            <div class="col-md-5 text-left">
+              <p class="card-text">{{ i18n "basicinfo_what_is_it" | markdownify }}</p>
+
+              <h4 class="text-uppercase pt-3 pt-md-5"><b>{{ i18n "basicinfo_when_where_title" }}</b></h4>
+              <p class="card-text">{{ i18n "basicinfo_when_where" | markdownify }}</p>
+            </div>
+
+            <div class="col-md-5 text-left pt-2 pt-md-0">
+              <p class="card-text">{{ i18n "basicinfo_organizers" | markdownify }}</p>
+              <p class="text-center">
+                {{ range .Site.Params.organizers }}
+                  <a href="{{ .url }}" target="_blank">
+                    <img class="w-75" src="{{ .logo }}" title="{{ .name }}">
+                  </a>
+                {{ end }}
+              </p>
+            </div>
+
+          </div>
+
+          {{ with .Site.GetPage "page" "about" }}
+            <div class="row">
+              <div class="col-12 text-center">
+                <a href="{{ .Permalink }}">
+                  <button type="button" class="btn event-primary-color my-4 waves-effect waves-light" >
+                      {{ i18n "read_more" }}
+                      <i class="fa fa-question-circle ml-2"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          {{ end }}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

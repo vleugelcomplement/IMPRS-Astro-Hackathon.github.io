@@ -1,0 +1,192 @@
+baseURL = 'https://IMPRS-Astro-Hackathon.github.io'
+languageCode = 'en-us'
+defaultContentLanguage = "en"
+title = 'IMPRS Astro Hackathon 2024'
+
+disableLanguages = ["de"]
+
+theme = 'hackatheme'
+
+[params]
+dateStart = 2024-06-02T18:00:00+02:00           # Required
+dateEnd = 2023-06-10T22:00:00+02:00             # Required
+dateForm = "02-01-2006"                    # Required, defines date formatting style (see Hugo dateFormat)
+hashtag = "IMPRSAstroHackathon"
+
+[params.license]                                # Optional, but highly recommended
+#name = "CC-BY-SA 4.0"
+#url = "https://github.com/makezurich/website/blob/master/LICENSE"
+
+[params.styling]
+backgroundHero = "/images/front/background.jpg"           # Required
+logoHero = "/images/logo/logo.png"                   # Required
+logoNavbar = "/images/logo/logo.png"                     # Optional, leave empty to show no logo on navbar
+#externalImage = "/images/externals/event-cover.png" # Optional, used for sharing meta data
+themeColor = "#ffffff"                              # Optional
+#customCSS = "/css/styles.css"                       # Optional, remove/leave empty if you don't need custom styles
+
+# Venue description
+# Details are used to generate maps and schema.org meta-data
+[params.venue]
+name = "Haus der Astronomie"
+street = "Königstuhl 18"
+zipCode = "69117"
+city = "Heidelberg"
+state = "BW"
+country = "DE"
+mapboxPublicToken = "pk.eyJ1IjoidmxldWdlbGNvbXBsZW1lbnQiLCJhIjoiY2x0MmJ0NW92MG45eTJqcnptM2p5dmk1NSJ9.AXpg1DALO6Gpn76h955Phg"
+mapboxStyle = "streets-v12"
+mapboxZoom = 15
+
+[params.venue.coords]
+latitude = 49.3961 
+longitude = 8.72417
+
+# Registration
+[params.registration]
+registrationForm = "https://gath.io/z49XHu6VpuOWdJrQu6lJY?e=g4b4xzort4jyzxj1ygmidb4leqnv5r5d"
+
+
+# SEO Options: all verification codes are optional
+[params.seo.verification]
+    google = ""
+    bing = ""
+    alexa = ""
+    yandex = ""
+
+[languages]
+[languages.en]
+weight = 1
+languageName = "English"
+
+[[languages.en.menu.main]]
+    name = "Schedule"
+    url = "/#schedule"
+    weight = 2
+
+[[languages.en.menu.main]]
+    name = "Venue"
+    url = "/#venue"
+    weight = 3
+
+[[languages.en.menu.main]]
+    name = "Challenges"
+    url = "/#challenges"
+    weight = 4
+
+[[languages.en.menu.highlighted]]
+    # DURING
+    name = "Projects"
+    url = "https://now.makezurich.ch/event/5"
+    weight = 4
+    pre = "btn-black"
+    post = "fa-tasks"
+
+# PRIMARY BUTTON LINK
+# Change links according to event stage:
+# Before event=Register
+# During event=Getting Started
+# After=Projects
+[[languages.en.menu.highlighted]]
+    # BEFORE
+    # name = "Register"
+    # url = "/register"
+    # DURING
+    # name = "Getting started"
+    # url = "/start"
+
+    # AFTER
+    name = "Projects"
+    url = "/projects"
+
+    weight = 5
+    pre = "btn-black"
+    post = ""
+
+# PRIMARY BUTTON LINK (Hero)
+# Same as the one above
+[[languages.en.menu.hero]]
+    # BEFORE
+    # name = "Register"
+    # url = "/register"
+    # DURING
+    # name = "Getting started"
+    # url = "/start"
+    # AFTER
+    name = "Projects"
+    url = "/projects"
+
+    pre = "event-primary-color"
+    post = ""
+
+[languages.de]
+weight = 2
+languageName = "Deutsch"
+
+[[languages.de.menu.main]]
+    name = "Zeitplan"
+    url = "/#schedule"
+    weight = 2
+
+[[languages.de.menu.main]]
+    name = "Venue"
+    url = "/#venue"
+    weight = 3
+
+[[languages.de.menu.main]]
+    name = "Challenges"
+    url = "/#challenges"
+    weight = 4
+
+[[languages.de.menu.highlighted]]
+    # DURING
+    name = "Projekte"
+    url = "https://now.makezurich.ch/event/5"
+    weight = 4
+    pre = "btn-black"
+    post = "fa-tasks"
+
+# PRIMARY BUTTON LINK
+# Change links according to event stage:
+# Before event=Register
+# During event=Getting Started
+# After=Projects
+[[languages.de.menu.highlighted]]
+    # BEFORE
+    # name = "Anmelden"
+    # url = "/register"
+    # DURING
+    # name = "Getting started"
+    # url = "/de/start"
+    # AFTER
+    name = "Projekte"
+    url = "/de/projekte"
+
+    weight = 5
+    pre = "btn-black"
+    post = ""
+
+# PRIMARY BUTTON LINK (Hero)
+# Same as the one above
+[[languages.de.menu.hero]]
+    # BEFORE
+    # name = "Anmelden"
+    # url = "/register"
+    # DURING
+    # name = "Getting started"
+    # url = "/de/start"
+    # AFTER
+    name = "Projekte"
+    url = "/de/projekte"
+
+    pre = "event-primary-color"
+    post = ""
+
+# Hugo's Markdown rendering engine options
+[blackfriday]
+hrefTargetBlank = true
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true

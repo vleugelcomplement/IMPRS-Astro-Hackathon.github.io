@@ -15,4 +15,6 @@ other = "Sorry, nothing here..."
 other = "oops, maybe head [home](/)?"
 
 
+[footer_template_link]
+other = "Based on this [template & guide](https://github.com/open-network-infrastructure/hugo-hackatheme)."
 

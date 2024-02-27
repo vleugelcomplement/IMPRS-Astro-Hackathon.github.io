@@ -2,7 +2,6 @@
 title = "Getting started"
 weight = 4
 type = "info"
-aliases = ["/de/start"]
 
 [menu.footer]
 

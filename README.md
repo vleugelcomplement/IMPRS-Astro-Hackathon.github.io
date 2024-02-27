@@ -1,8 +1,5 @@
 # IMPRS-Astro-Hackathon
 
-Welcome to the IMPRS-Astro-Hackathon!
-
-
 Haus der Astronomie, Heidelberg, 21.-25.05.2024
 
 Registration is here: TODO

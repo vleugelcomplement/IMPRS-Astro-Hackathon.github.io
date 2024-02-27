@@ -1,0 +1,20 @@
+[event_name]
+other = "IMPRS Astro Hackathon"
+
+[event_city]
+other = "Heidelberg"
+
+[event_slogan]
+other = "(this is a super quick demo with Hugo I did over the weekend, we can change everything)"
+
+# 404 translations
+[404_title]
+other = "Sorry, nothing here..."
+
+[404_text]
+other = "oops, maybe head [home](/)?"
+
+
+[footer_template_link]
+other = "Based on this [template & guide](https://github.com/open-network-infrastructure/hugo-hackatheme)."
+

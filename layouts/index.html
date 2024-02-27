@@ -1,0 +1,44 @@
+{{ define "hero-view" }}
+  <div id="intro" class="view" style="background-image: url('{{ .Site.Params.Styling.backgroundHero }}')">
+    <div class="full-bg-img">
+      <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-sm-12">
+
+            <div class="card" style="background-color:rgba(255,255,255,0.3); padding: 1ex 1em">
+              <!-- <img src="{{ .Site.Params.Styling.logoHero | relURL }}" class="d-inline w-50 mb-4" alt="{{ i18n "event_name" | markdownify }}" /> -->
+              <h1 class="text-uppercase" style="color:black; font-size:45pt"><b>{{ i18n "event_name" | markdownify }}</b></h1>
+            </div>
+            <!--
+            {{ with i18n "event_slogan" }}
+              <p class="mb-4 white-text">{{ . | markdownify }}</p>
+            {{ end }}
+            -->
+
+            {{ range .Site.Menus.hero }}
+              <a href="{{ .URL | relLangURL }}">
+                <button type="button" class="btn {{ .Pre }}">{{ .Name }}
+                  {{ with .Post }}
+                    <i class="fa {{ . }} ml-2"></i>
+                  {{ end }}
+                </button>
+              </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
+
+{{ define "main" }}
+{{ partial "info/basic.html" . }}
+<!-- {{ partial "info/challenges.html" . }} -->
+<!-- {{ partial "info/features.html" . }} -->
+<!-- {{ partial "info/schedule.html" . }} -->
+{{ partial "info/venue.html" . }}
+{{ partial "info/register.html" . }}
+<!-- {{ partial "info/team.html" . }} -->
+<!-- {{ partial "info/partners.html" . }} -->
+<!-- {{ partial "info/extra.html" . }} -->
+{{ end }}

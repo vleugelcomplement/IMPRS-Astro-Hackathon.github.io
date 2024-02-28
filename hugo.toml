@@ -51,11 +51,11 @@ registrationForm = "https://imprs-astro-hackathon.de/register" # there be google
 order = "random" # Optional, to maintain the ordering as specified, remove or set to "fixed"
 
 [[params.team.members]]
-name = "Florian Schulze"
-email = "florian.schulze@mpi-hd.mpg.de"
+name = "(Florian Schulze)[mailto:florian.schulze@mpi-hd.mpg.de]"
 
 [[params.team.members]]
-name = "Cormac Larkin"
+name = """<a href="mailto:cormac.larkin@mpi-hd.mpg.de">Cormac Larkin</a> """
+photo = "/images/team/cormac_larkin.jpg"
 email = "cormac.larkin@mpi-hd.mpg.de"
 
 

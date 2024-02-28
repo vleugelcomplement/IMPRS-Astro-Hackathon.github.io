@@ -8,20 +8,21 @@ disableLanguages = ["de"]
 theme = 'hackatheme'
 
 [params]
-dateStart = 2024-05-22T09:00:00+02:00           # Required
-dateEnd = 2023-05-24T17:00:00+02:00             # Required
-dateForm = "02-01-2006"                    # Required, defines date formatting style (see Hugo dateFormat)
+# dateStart = 2024-05-22T09:00:00+02:00 # Required
+dateStart = 2024-05-21T18:00:00+02:00 # Required
+dateEnd = 2024-05-24T17:00:00+02:00   # Required
+dateForm = "02-01-2006"               # Required, defines date formatting style (see Hugo dateFormat)
 
-[params.license]                                # Optional, but highly recommended
+[params.license] # Optional, but highly recommended
 name = "CC-BY-SA 4.0"
 #url = "https://github.com/makezurich/website/blob/master/LICENSE"
 
 [params.styling]
-backgroundHero = "/images/front/background.jpg"           # Required
-logoHero = "/images/logo/logo.png"                   # Required
-logoNavbar = "/images/logo/logo.png"                     # Optional, leave empty to show no logo on navbar
+backgroundHero = "/images/front/background.jpg" # Required
+logoHero = "/images/logo/logo.png"              # Required
+logoNavbar = "/images/logo/logo.png"            # Optional, leave empty to show no logo on navbar
 #externalImage = "/images/externals/event-cover.png" # Optional, used for sharing meta data
-themeColor = "#ffffff"                              # Optional
+themeColor = "#ffffff" # Optional
 #customCSS = "/css/styles.css"                       # Optional, remove/leave empty if you don't need custom styles
 
 # Venue description
@@ -38,21 +39,42 @@ mapboxStyle = "streets-v12"
 mapboxZoom = 15
 
 [params.venue.coords]
-latitude = 49.3961 
+latitude = 49.3961
 longitude = 8.72417
 
 # Registration
 [params.registration]
 registrationForm = "https://imprs-astro-hackathon.de/register" # there be google form
-#"https://gath.io/z49XHu6VpuOWdJrQu6lJY?e=g4b4xzort4jyzxj1ygmidb4leqnv5r5d"
+
+[[params.organizers]]
+name = "LOC/SOC"
+email = "imprs-astro-hackathon@gmail.com"
+
+[params.team]
+order = "random" # Optional, to maintain the ordering as specified, remove or set to "fixed"
+
+[[params.team.members]]
+name = "Florian Schulze"
+email = "florian.schulze@mpi-hd.mpg.de"
+
+[[params.team.members]]
+name = "Cormac Larkin"
+email = "cormac.larkin@mpi-hd.mpg.de"
+
+[[params.social]]
+title = "Adress"
+text = """Name
+Street
+City"""
+email = "imprs-astro-hackathon@gmail.com"
 
 
 # SEO Options: all verification codes are optional
 [params.seo.verification]
-    google = ""
-    bing = ""
-    alexa = ""
-    yandex = ""
+google = ""
+bing = ""
+alexa = ""
+yandex = ""
 
 [languages]
 [languages.en]
@@ -60,14 +82,14 @@ weight = 1
 languageName = "English"
 
 [[languages.en.menu.main]]
-    name = "Schedule"
-    url = "/#schedule"
-    weight = 2
+name = "Schedule"
+url = "/#schedule"
+weight = 2
 
 [[languages.en.menu.main]]
-    name = "Venue"
-    url = "/#venue"
-    weight = 3
+name = "Venue"
+url = "/#venue"
+weight = 3
 
 # [[languages.en.menu.main]]
 #     name = "Challenges"
@@ -75,19 +97,19 @@ languageName = "English"
 #     weight = 4
 
 [[languages.en.menu.highlighted]]
-    # BEFORE
-    name = "Register"
-    url = "https://imprs-astro-hackathon.de/register"
-    # DURING
-    # name = "Getting started"
-    # url = "/start"
+# BEFORE
+name = "Register"
+url = "https://imprs-astro-hackathon.de/register"
+# DURING
+# name = "Getting started"
+# url = "/start"
 
-    # AFTER
-    # name = "Projects"
-    # url = "/projects"
-    weight = 5
-    pre = "btn-black"
-    post = ""
+# AFTER
+# name = "Projects"
+# url = "/projects"
+weight = 5
+pre = "btn-black"
+post = ""
 
 # Hugo's Markdown rendering engine options
 [blackfriday]

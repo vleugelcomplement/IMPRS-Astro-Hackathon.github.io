@@ -5,7 +5,20 @@ other = "IMPRS Astro Hackathon"
 other = "Heidelberg"
 
 [event_slogan]
-other = "(this is a super quick demo with Hugo I did over the weekend, we can change everything)"
+other = "This is a nice slogan for the event"
+
+[basicinfo_claim]
+other = "Make IMPRS-Astro great again!"
+
+[basicinfo_what_is_it]
+other = """BASIC: What is what"""
+
+[basicinfo_when_where]
+other = """BASIC: When and where"""
+
+[basicinfo_organizers]
+other = """BASIC: Organizers"""
+
 
 # 404 translations
 [404_title]
@@ -17,4 +30,3 @@ other = "oops, maybe head [home](/)?"
 
 [footer_template_link]
 other = "Based on this [template & guide](https://github.com/open-network-infrastructure/hugo-hackatheme)."
-

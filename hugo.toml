@@ -48,15 +48,55 @@ registrationForm = "https://imprs-astro-hackathon.de/register" # there be google
 
 
 [params.team]
-order = "random" # Optional, to maintain the ordering as specified, remove or set to "fixed"
+order = "alpabetical" # Optional, to maintain the ordering as specified, remove or set to "fixed"
 
 [[params.team.members]]
-name = "(Florian Schulze)[mailto:florian.schulze@mpi-hd.mpg.de]"
+name = "Florian Schulze"
+photo = "/images/team/florian_schulze.png"
 
 [[params.team.members]]
-name = """<a href="mailto:cormac.larkin@mpi-hd.mpg.de">Cormac Larkin</a> """
-photo = "/images/team/cormac_larkin.jpg"
-email = "cormac.larkin@mpi-hd.mpg.de"
+name = "Cormac Larkin"
+photo = "/images/team/cormac_larkin.png"
+
+[[params.team.members]]
+name = "Taavet Kalda"
+photo = "/images/team/taavet_kalda.png"
+
+[[params.team.members]]
+name = "Roel Lefever"
+photo = "/images/team/roel_lefever.png"
+
+[[params.team.members]]
+name = "Roel Lefever"
+photo = "/images/team/roel_lefever.png"
+
+[[params.team.members]]
+name = "Catarina Aydar"
+photo = "/images/team/catarina_aydar.png"
+
+[[params.team.members]]
+name = "Pietro Baldini"
+photo = "/images/team/pietro_baldini.png"
+
+[[params.team.members]]
+name = "Franziska Bruckmann"
+photo = "/images/team/franziska_bruckmann.png"
+
+[[params.team.members]]
+name = "Kai Lehman"
+photo = "/images/team/kai_lehman.png"
+
+[[params.team.members]]
+name = "Anirudh Ravishankar"
+photo = "/images/team/anirudh_ravishankar.png"
+
+[[params.team.members]]
+name = "Iliya Tikhonenko"
+photo = "/images/team/iliya_tikhonenko.png"
+
+[[params.team.members]]
+name = "Zhang-Liang Xie"
+photo = "/images/team/liang_xie.png"
 
 
 [[params.social]]

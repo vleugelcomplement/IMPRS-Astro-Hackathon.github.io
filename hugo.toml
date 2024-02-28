@@ -44,7 +44,7 @@ longitude = 8.72417
 
 # Registration
 [params.registration]
-registrationForm = "https://imprs-astro-hackathon.de/register" # there be google form
+registrationForm = "https://imprs-astro-hackathon.de/start" # there be google form
 
 
 [params.team]

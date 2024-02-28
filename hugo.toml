@@ -67,7 +67,7 @@ icon = "fa-envelope"
 
 [[params.social]]
 title = "Adress"
-text = """Name \\ Street \\ City"""
+text = """Name \n Street \n City"""
 
 
 # SEO Options: all verification codes are optional

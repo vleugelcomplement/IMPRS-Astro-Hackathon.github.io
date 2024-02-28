@@ -28,6 +28,9 @@ acceptance of your application by **March 22**."""
 other = """The IMPRS-Astro Hackathon is organized by IMPRS astronomy PhD students
 in Heidelberg and Munich. You can contact us via [imprs-astro-hackathon@gmail.com](mailto:imprs-astro-hackathon@gmail.com)"""
 
+[team_description]
+other = """The IMPRS-Astro Hackathon is possible thanks to an amazing team in the LOC and SOC:"""
+
 
 # 404 translations
 [404_title]

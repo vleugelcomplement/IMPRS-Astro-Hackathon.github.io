@@ -97,8 +97,8 @@ photo = "/images/team/liang_xie.png"
 
 [[params.social]]
 title = "email"
-url = "mailto:imprs-astro-hackathon@gmail.com"
-text = "imprs-astro-hackathon@gmail.com"
+url = "mailto:imprsastrohackathon@gmail.com"
+text = "imprsastrohackathon@gmail.com"
 icon = "fa-envelope"
 
 # SEO Options: all verification codes are optional

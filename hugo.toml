@@ -65,11 +65,6 @@ url = "mailto:imprs-astro-hackathon@gmail.com"
 text = "imprs-astro-hackathon@gmail.com"
 icon = "fa-envelope"
 
-[[params.social]]
-title = "Adress"
-text = """Name \n Street \n City"""
-
-
 # SEO Options: all verification codes are optional
 [params.seo.verification]
 google = ""

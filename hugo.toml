@@ -130,8 +130,8 @@ weight = 3
 
 [[languages.en.menu.highlighted]]
 # BEFORE
-name = "Register"
-url = "https://imprs-astro-hackathon.de/register"
+name = "Apply now!"
+url = "https://imprs-astro-hackathon.de/start"
 # DURING
 # name = "Getting started"
 # url = "/start"

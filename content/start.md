@@ -7,6 +7,15 @@ type = "info"
 
 +++
 
+## Applying for the Hackathon
+
+To apply for the hackathon, please fill out the [application form](TODO).
+In addition, please register on [dribdat](TODO) and join the hackathon event.
+
+The application is open until **March 18**. We will inform you about the
+acceptance of your application by **March 22**.
+
+
 ## Start/Join project
 
 We use [dribdat](demos.ventag.one) for teambuilding and pulling together the hackathon projects.

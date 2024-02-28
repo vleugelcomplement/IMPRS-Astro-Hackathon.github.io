@@ -48,27 +48,7 @@ registrationForm = "https://imprs-astro-hackathon.de/register" # there be google
 
 
 [params.team]
-order = "alpabetical" # Optional, to maintain the ordering as specified, remove or set to "fixed"
-
-[[params.team.members]]
-name = "Florian Schulze"
-photo = "/images/team/florian_schulze.png"
-
-[[params.team.members]]
-name = "Cormac Larkin"
-photo = "/images/team/cormac_larkin.png"
-
-[[params.team.members]]
-name = "Taavet Kalda"
-photo = "/images/team/taavet_kalda.png"
-
-[[params.team.members]]
-name = "Roel Lefever"
-photo = "/images/team/roel_lefever.png"
-
-[[params.team.members]]
-name = "Roel Lefever"
-photo = "/images/team/roel_lefever.png"
+# order = "random" # Optional, to maintain the ordering as specified, remove or set to "fixed"
 
 [[params.team.members]]
 name = "Catarina Aydar"
@@ -83,12 +63,28 @@ name = "Franziska Bruckmann"
 photo = "/images/team/franziska_bruckmann.png"
 
 [[params.team.members]]
+name = "Taavet Kalda"
+photo = "/images/team/taavet_kalda.png"
+
+[[params.team.members]]
+name = "Cormac Larkin"
+photo = "/images/team/cormac_larkin.png"
+
+[[params.team.members]]
 name = "Kai Lehman"
 photo = "/images/team/kai_lehman.png"
 
 [[params.team.members]]
+name = "Roel Lefever"
+photo = "/images/team/roel_lefever.png"
+
+[[params.team.members]]
 name = "Anirudh Ravishankar"
 photo = "/images/team/anirudh_ravishankar.png"
+
+[[params.team.members]]
+name = "Florian Schulze"
+photo = "/images/team/florian_schulze.png"
 
 [[params.team.members]]
 name = "Iliya Tikhonenko"

@@ -8,16 +8,25 @@ other = "Heidelberg"
 other = "This is a nice slogan for the event"
 
 [basicinfo_claim]
-other = "Make IMPRS-Astro great again!"
+other = "It will be astronomical!"
 
 [basicinfo_what_is_it]
-other = """BASIC: What is what"""
+other = """Our aim is to bring astronomy IMPRS students from Munich and
+Heidelberg together. In the Hackathon, we will have time to work on joint
+projects, learn from each other, and connect with other astronomy students.
+This workshop will be a great opportunity to bring us IMPRS students together
+while creating unique research."""
 
 [basicinfo_when_where]
-other = """BASIC: When and where"""
+other = """The IMPRS-Astro Hackathon will take place on **May 21 - 24, 2024**
+at the **Haus der Astronomy (HdA) in Heidelberg, Germany**.
+
+The registration is open until **March 18**. We will inform you about the
+acceptance of your application by **March 22**."""
 
 [basicinfo_organizers]
-other = """BASIC: Organizers"""
+other = """The IMPRS-Astro Hackathon is organized by IMPRS astronomy PhD students
+in Heidelberg and Munich. You can contact us via [imprs-astro-hackathon@gmail.com](mailto:imprs-astro-hackathon@gmail.com)"""
 
 
 # 404 translations

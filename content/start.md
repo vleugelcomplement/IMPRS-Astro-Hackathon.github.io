@@ -10,7 +10,7 @@ type = "info"
 ## Applying for the Hackathon
 
 To apply for the hackathon, please fill out the [application form](TODO).
-In addition, please register on [dribdat](https://live.imprs-astro-hackathon.de) and join the hackathon event.
+In addition, please sign up on [dribdat](https://live.imprs-astro-hackathon.de) and join the hackathon event.
 
 The application is open until **March 18**. We will inform you about the
 acceptance of your application by **March 22**.

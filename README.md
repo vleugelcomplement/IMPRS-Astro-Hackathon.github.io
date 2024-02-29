@@ -8,7 +8,7 @@ This repository hosts the imprs-astro-hackathon website. The website is built us
 - [ ] Create registration form
 - [ ] Open registration
 - [X] Create preliminary schedule
-- [ ] Open `dripdrat` website
+- [ ] Open `dribdrat` website
 - [X] Give all team members
 - [ ] Create a logo
 - [X] Replace placeholder text on main page

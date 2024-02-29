@@ -23,7 +23,7 @@ logoHero = "/images/logo/logo.png"              # Required
 logoNavbar = "/images/logo/logo.png"            # Optional, leave empty to show no logo on navbar
 #externalImage = "/images/externals/event-cover.png" # Optional, used for sharing meta data
 themeColor = "#ffffff" # Optional
-#customCSS = "/css/styles.css"                       # Optional, remove/leave empty if you don't need custom styles
+customCSS = "/css/styles.css"                       # Optional, remove/leave empty if you don't need custom styles
 
 # Venue description
 # Details are used to generate maps and schema.org meta-data

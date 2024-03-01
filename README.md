@@ -12,9 +12,8 @@ This repository hosts the imprs-astro-hackathon website. The website is built us
 - [X] Give all team members
 - [ ] Create a logo
 - [X] Replace placeholder text on main page
-    - [ ] Check Text on main page and other pages
+    - [X] Check Text on main page and other pages
 - [X] Create page [FAQ](content/about.md)
 - [X] Create page [Guidelines](content/guidelines.md)
-- [ ] Create page [projects](content/projects.md)
-- [ ] Create page [Getting started](content/start.md) (only linked in the LINK footer)
+- [X] Create page [Getting started](content/start.md) (only linked in the LINK footer)
 

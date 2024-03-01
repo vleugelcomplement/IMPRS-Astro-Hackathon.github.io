@@ -16,11 +16,11 @@ The application is open until **March 18**. We will inform you about the
 acceptance of your application by **March 22**.
 
 
-## Start/Join project
+## Propose a project/session idea
 
-We use a dribdat instance for teambuilding and pulling together the hackathon projects.
+We use [dribdat](https://dribdat.cc) for teambuilding and pulling together the hackathon projects. Do the following to start
 
-1. Sign in or create a [dribdat account](https://live.imprs-astro-hackathon.de/login/).
-2. [See all challenges and existing projects](https://live.imprs-astro-hackathon.de/event/1)
-3. Then either [start a project](https://live.imprs-astro-hackathon.de/project/event/1/project/new)
-4. ...or [join an existing team](https://live.imprs-astro-hackathon.de/event/1)
+1. Sign in or create a [dribdat account](https://live.imprs-astro-hackathon.de/login/) if you have not done it already;
+2. [Have a look at challenges and existing projects](https://live.imprs-astro-hackathon.de/event/1);
+3. Then either [start a project](https://live.imprs-astro-hackathon.de/project/new/1);
+4. ...or [join an existing team](https://live.imprs-astro-hackathon.de/event/1).

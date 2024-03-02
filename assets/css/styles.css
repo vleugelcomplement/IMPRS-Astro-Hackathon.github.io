@@ -4,3 +4,7 @@ img.rounded-circle {
       width:100%;
       aspect-ratio: 1 / 1;
 }
+
+.team-member-role {
+    color:#7a8794;
+}

@@ -53,6 +53,7 @@ registrationForm = "https://imprs-astro-hackathon.de/start" # there be google fo
 [[params.team.members]]
 name = "Catarina Aydar"
 photo = "/images/team/catarina_aydar.png"
+role = "Co-chair"
 
 [[params.team.members]]
 name = "Pietro Baldini"
@@ -69,6 +70,7 @@ photo = "/images/team/taavet_kalda.png"
 [[params.team.members]]
 name = "Cormac Larkin"
 photo = "/images/team/cormac_larkin.png"
+role = "Co-chair"
 
 [[params.team.members]]
 name = "Kai Lehman"

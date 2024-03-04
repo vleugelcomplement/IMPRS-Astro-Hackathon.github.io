@@ -17,7 +17,14 @@ The application is open until **March 25th**. We will inform you about the accep
 
 ## Propose a project/session idea
 
-We use [dribdat](https://live.imprs-astro-hackathon.de) for team building and pulling together the hackathon projects. Do the following to start
+We are using a platform called [dribdat](https://live.imprs-astro-hackathon.de) to organise our programme. On Dribdat, you can already propose your contribution, which can be in the form of a discussion, a project or a session.
+
+- A **discussion** is an activity which you would propose to chair, to talk horizontally about a certain topic.
+- A **project** is a task you want to accomplish and are looking for collaborators.
+- A **session** has a tutorial shape, in which the students could divide in smaller groups or make an individual task that you propose.
+  
+Any contribution can be proposed by two or more contributors, and you can also join existing contributions proposed by others on Dribdat following these steps:
+
 
 1. Sign in or create a [dribdat account](https://live.imprs-astro-hackathon.de/login/) if you have not done it already;
 2. [Have a look at challenges and existing projects](https://live.imprs-astro-hackathon.de/event/1);

@@ -5,15 +5,4 @@ This repository hosts the imprs-astro-hackathon website. The website is built us
 
 ## TODOS
 
-- [ ] Create registration form
-- [ ] Open registration
-- [X] Create preliminary schedule
-- [X] Open `dribdrat` website
-- [X] Give all team members
-- [ ] Create a logo
-- [X] Replace placeholder text on main page
-    - [X] Check Text on main page and other pages
-- [X] Create page [FAQ](content/about.md)
-- [X] Create page [Guidelines](content/guidelines.md)
-- [X] Create page [Getting started](content/start.md) (only linked in the LINK footer)
-
+- [ ] Close application after deadline

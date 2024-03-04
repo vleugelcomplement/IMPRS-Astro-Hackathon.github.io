@@ -15,12 +15,12 @@ dateForm = "02-01-2006"               # Required, defines date formatting style 
 
 [params.license] # Optional, but highly recommended
 name = "CC-BY-SA 4.0"
-#url = "https://github.com/makezurich/website/blob/master/LICENSE"
+url = "https://github.com/IMPRS-Astro-Hackathon/IMPRS-Astro-Hackathon.github.io/blob/main/LICENSE"
 
 [params.styling]
 backgroundHero = "/images/front/background.jpg" # Required
 logoHero = "/images/logo/logo_v5.svg"              # Required
-logoNavbar = "/images/logo/logo_v5_inverted.png"            # Optional, leave empty to show no logo on navbar
+logoNavbar = "/images/logo/logo_v5_inverted.svg"            # Optional, leave empty to show no logo on navbar
 #externalImage = "/images/externals/event-cover.png" # Optional, used for sharing meta data
 themeColor = "#ffffff" # Optional
 customCSS = "/css/styles.css"                       # Optional, remove/leave empty if you don't need custom styles

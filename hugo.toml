@@ -18,12 +18,12 @@ name = "CC-BY-SA 4.0"
 url = "https://github.com/IMPRS-Astro-Hackathon/IMPRS-Astro-Hackathon.github.io/blob/main/LICENSE"
 
 [params.styling]
-backgroundHero = "/images/front/background.jpg" # Required
-logoHero = "/images/logo/logo_v5.svg"              # Required
-logoNavbar = "/images/logo/logo_v5_inverted.svg"            # Optional, leave empty to show no logo on navbar
+backgroundHero = "/images/front/background.jpg"  # Required
+logoHero = "/images/logo/logo_v5.svg"            # Required
+logoNavbar = "/images/logo/logo_v5_inverted.svg" # Optional, leave empty to show no logo on navbar
 #externalImage = "/images/externals/event-cover.png" # Optional, used for sharing meta data
-themeColor = "#ffffff" # Optional
-customCSS = "/css/styles.css"                       # Optional, remove/leave empty if you don't need custom styles
+themeColor = "#ffffff"        # Optional
+customCSS = "/css/styles.css" # Optional, remove/leave empty if you don't need custom styles
 
 # Venue description
 # Details are used to generate maps and schema.org meta-data
@@ -95,6 +95,32 @@ photo = "/images/team/iliya_tikhonenko.png"
 [[params.team.members]]
 name = "Zhang-Liang Xie"
 photo = "/images/team/liang_xie.png"
+
+
+# Sponsors/Partners of the event
+[[params.partners.sponsors]]
+name = "IMPRS-HD"
+logo = "/images/partners/logo-IMRPS-HD.png"
+url = "https://www.imprs-hd.mpg.de"
+class = "my-3 w-50"
+
+[[params.partners.sponsors]]
+name = "IMRPS-Astro"
+logo = "/images/partners/logo-IMRPS-HD.png"
+url = "https://www.imprs-astro.mpg.de"
+class = "my-3 w-50"
+
+[[params.partners.sponsors]]
+name = "Haus der Astronomie"
+logo = "/images/partners/logo-HdA.png"
+url = "https://www.haus-der-astronomie.de"
+class = "my-3 w-50"
+
+[[params.partners.sponsors]]
+name = "Zulip"
+logo = "/images/partners/logo-Zulip.svg"
+url = "https://zulip.com/"
+class = "my-3 w-50"
 
 
 [[params.social]]

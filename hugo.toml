@@ -158,11 +158,11 @@ weight = 3
 
 [[languages.en.menu.highlighted]]
 # BEFORE
-name = "Apply now!"
-url = "/start"
-# DURING
-# name = "Getting started"
+# name = "Apply now!"
 # url = "/start"
+# DURING
+name = "Getting started"
+url = "/start"
 
 # AFTER
 # name = "Projects"

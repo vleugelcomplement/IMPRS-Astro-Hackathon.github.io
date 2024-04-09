@@ -100,7 +100,7 @@ photo = "/images/team/liang_xie.png"
 # Sponsors/Partners of the event
 [[params.partners.sponsors]]
 name = "IMPRS-HD"
-logo = "/images/partners/logo-IMRPS-HD.png"
+logo = "/images/partners/logo-IMPRS-HD.jpg"
 url = "https://www.imprs-hd.mpg.de"
 class = "my-3 w-50"
 

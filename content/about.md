@@ -19,7 +19,7 @@ Every IMPRS astronomy student in Heidelberg or Munich can join. We have a limite
 
 #### What is a Hackathon?
 
-In a Hackathon, we want to work together on a project, while also learning new skills and connecting with each other. The concept is similar to [.astronomy](https://www.dotastronomy.com). We will have a mix of Tutorial sessions and Hackathon sessions, giving you time to collaboratively work on joined projects.
+In a Hackathon, we want to work together on a project, while also learning new skills and connecting with each other. The concept is similar to [.astronomy](https://www.dotastronomy.com). We will have a mix of Discussion, Tutorial and Hackathon sessions, giving you time to collaboratively work on joined projects.
 
 
 #### What kind of projects can I bring?
@@ -31,5 +31,5 @@ You can post your idea as a project our [dribdat](https://live.imprs-astro-hacka
 
 #### How much does it cost?
 
-We do not have a registration fee, and will cover lunch, coffee breaks and one or two dinners. Students from Munich will have to get their travel expenses and accommodation covered by their own groups. IMPRS Munich can provide support for a limited number of their students. For Heidelberg students there are no expenses.
+We do not have a registration fee, and will cover lunch, coffee breaks and two dinners. Students from Munich will have to get their travel expenses and accommodation covered by their own groups. For Heidelberg students there are no expenses.
 

@@ -28,3 +28,34 @@ img.rounded-circle {
     margin-left: auto;
     margin-right: auto;
 }
+
+span.scheduled-session, span.scheduled-project, span.scheduled-discussion {
+    display:inline-block;
+}
+
+.scheduled-title hr {
+    margin:1ex 0;
+}
+span.scheduled-session::before, 
+span.scheduled-project::before,
+span.scheduled-discussion::before {
+    font-weight: 400;
+    font-size: 80%;
+    padding: 0.2ex 0.7ex;
+    margin-right: 1ex;
+    border-radius: 1ex;
+}
+span.scheduled-session::before {
+    content: "Session";
+    background-color: #c1e2c1;
+}
+
+span.scheduled-project::before {
+    content: "Project";
+    background-color: #e8caae;
+}
+
+span.scheduled-discussion::before {
+    content: "Discussion";
+    background-color: #b7d1de;
+}
